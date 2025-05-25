@@ -440,15 +440,14 @@ body.loading {
 }
 
 .component-btn:hover {
-    background-color: #007BFF;
+    background-color: rgba(255, 255, 255, 0.2);;
     color: white;
 }
 
 .component-btn.active {
-    background-color: #0056d2;
-    /* Darker blue for selected */
+    background-color:rgba(255, 255, 255, 0.2);
     color: white;
-    border-color: #0056d2;
+    border-color: white;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
